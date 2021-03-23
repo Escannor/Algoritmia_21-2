@@ -10,7 +10,7 @@ def repaso(nombre, num_preguntas):
         oper = random.randint(0,3)
 
 
-        resultado = input(f"{a}{}{b} = ")
+        resultado = input(f"{a}{oper}{b} = ")
 
         if validar(a, b, operaciones[oper], resultado):
             aciertos += 1
