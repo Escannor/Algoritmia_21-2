@@ -27,9 +27,12 @@ if __name__ == '__main__':
 
     rodrigo = Usuario(17, 'rodrigo', 'perez', 'rodrigo@gmail.com', 55464787)
     juan = Usuario(19, 'juan', 'perez', 'juan@gmail.com', 55479787)
+    # # # # 3 usuarios
+
 
     baseDatos[ rodrigo.getClave() ] = rodrigo  # baseDatos[ 17 ] = rodrigo
     baseDatos[juan.getClave()] = juan
+    # # # 3 añadidos
 
 
     salir = False  # Bandera para salir
